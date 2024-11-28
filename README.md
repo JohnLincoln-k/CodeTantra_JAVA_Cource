@@ -1,2 +1,16 @@
-# CodeTantra_JAVA_Cource
-This repository contains solutions to the Java programming course offered by CodeTantra. Each solution includes the problem statement and the corresponding code. The repository is organized by lecture, with each lecture having its own folder containing relevant files.
+# Codetantra CSE310 - PROGRAMMING IN JAVA Answers
+This Repository contanis all codes and mcq of codetantra java programming course.
+
+### Question format-
+Problem Statment<br>
+Solution <br><br>
+Here are all the completed and successful Code for Codetantra JAVA Programming Course
+<br>
+
+Fork and Give A Star to repository.
+<br>
+<br>
+Keep Checking For further updates.
+<br>
+<br>
+## Happy Coding!!
