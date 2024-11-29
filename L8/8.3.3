@@ -1,0 +1,53 @@
+8.3.3. Working with Character wrapper class
+
+In Java, the primitive char type has a wrapper class called Character, which provide useful methods to work with characters.
+
+Understand the usage of most commonly used methods in Character class:
+isLetter()
+isDigit()
+isLetterOrDigit()
+Observe the code that is provided for you in the code skeleton.
+
+Use the appropriate methods and perform respective conversions to finish the incomplete code by following the instructions provided in the relevant comment lines.
+
+Note: Please don't change the package name.
+
+Answers  :-
+
+package q35961;
+public class CharacterDemo {
+public static void
+main(String[] args) {
+char ch1 = 'A';
+char ch2 = '7';
+char ch3 = '*';
+// Checking if ch1
+is a character
+System.out.println("ch1 is a
+letter: " +
+Character.isLetter(ch1));
+// now its your turn
+// Check if ch2 is a
+character
+System.out.println("ch2 is a
+letter:
+"+Character.isLetter(ch2));
+// Check if ch2 is a
+digit
+System.out.println("ch2 is a
+digit:
+"+Character.isDigit(ch2));
+// Checking if ch1
+is a letter or digit
+System.out.println("ch1 is a
+letter or digit:
+"+Character.isLetterOrDigit(c
+h1));
+// Checking if ch3
+is a letter or digit
+System.out.println("ch3 is a
+letter or digit:
+"+Character.isLetterOrDigit(c
+h3));
+}
+}
