@@ -1,0 +1,48 @@
+8.3.4. Working with Character wrapper class
+
+The wrapper class Character, wraps a single char value and provides useful methods to work with its content.
+
+Understand the usage of most commonly used methods in Character class:
+isUpperCase()
+isLowerCase()
+toUpperCase()
+toLowerCase()
+isWhitespace()
+Observe the code that is provided in the code skeleton.
+
+By following the guidelines provided for you in the relevant comment lines, complete the incomplete code by using certain properties of characters and perform respective conversions.
+
+Note: Please don't change the package name.
+
+Answers  :-
+
+package q35974;
+public class CharacterDemo2 {
+public static void main(String[] args) {
+char ch1 = 'A';
+char ch2 = 'd';
+char ch3 = '-';
+// Checking if ch1 is an uppercase character
+System.out.println("ch1 is an uppercase char: " +
+Character.isUpperCase(ch1));
+// now its your return
+// Check if ch1 is a lowercase character
+System.out.println("ch1 is a lowercase char:
+"+Character.isLowerCase(ch1));
+// Check if ch2 is a lowercase character
+System.out.println("ch2 is a lowercase char:
+"+Character.isLowerCase(ch2));
+// Convert ch2 to uppercase
+System.out.println("ch2 to uppercase:
+"+Character.toUpperCase(ch2));
+// Convert ch1 to lowercase
+System.out.println("ch1 to lowercase:
+"+Character.toLowerCase(ch1));
+// Check if ch3 is a letter or digit
+System.out.println("ch3 is a letter or digit:
+"+Character.isLetterOrDigit(ch3));
+// Check if ch3 is a whitespace character
+System.out.println("ch3 is a whitespace char:
+"+Character.isWhitespace(ch3));
+}
+}
